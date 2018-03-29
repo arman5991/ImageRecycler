@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import java.util.List;
 
@@ -30,9 +29,9 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.My
 
     @Override
     public void onBindViewHolder(final MyRecyclerAdapter.MyViewHolder holder, final int position) {
-        holder.itemView1.setImageResource(R.drawable.nkar0);
-        holder.itemView2.setImageResource(R.drawable.nkar5);
-        holder.itemView3.setImageResource(R.drawable.nkar2);
+        holder.itemView1.setImageResource(R.drawable.nkar11);
+        holder.itemView2.setImageResource(R.drawable.nkar12);
+        holder.itemView3.setImageResource(R.drawable.nkar13);
         holderOnClickListener(holder, position);
     }
 
